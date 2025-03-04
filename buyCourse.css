@@ -41,14 +41,14 @@ a:focus {
     src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
 }
 body{
-    background:  #00334b url(images/bitmsap.png);
+    background:  #4dc74d57 url(images/bitmsap.png);
     background-repeat: no-repeat;
     font-family: IRANSans;
 }
 .mainNavbar{
     width: 100%;
     height: 10vh;
-    background-color: rgb(45, 184, 184);
+    background-color: #4dc74d57;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -112,7 +112,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    background-color: #2DB8B8;
+
 }
 
 /* شروع*/ /*  انتخاب کردن دوره آموزشی و نمایش دادن در سبد خرید  */
@@ -121,7 +121,7 @@ body{
     padding: 30px;
     width: 1200px;
     /* margin-top: 200px; */
-    background-color: #197b5a;
+    background-color: #9ADF9A;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 /* .add-shopp i */
@@ -130,13 +130,12 @@ body{
 }
 .main_show-course{
     width: 100%;
-    min-height: 242px;
+    min-height: 300px;
     position: absolute;
-    background-color: #2DB8B8;
     right: 0px;
     top: 68px;
-
     z-index: 1000;
+    background-color: #566356;
     visibility: hidden;
 } 
 .show-course{
@@ -146,7 +145,7 @@ body{
     position: absolute;
     right: 75px;
     top: 0px;
-    background-color: #4dc7c057;
+    background-color: #14d43e57;
     border: 1px solid #ccc;
     border-radius: 10px;
     z-index: 200;
@@ -279,31 +278,7 @@ border-bottom: 2px solid #2DB8B8;
     width: 350px;
     height: 250px;
 }
-.card img::before{
-    content: '.';
-    position: absolute;
- /*    top: 140px;
-    left: 290px; */
-    top: 22px;
-    left: 1px;
 
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgb(45, 184, 184);
-    color: rgb(212, 122, 3);
-}
-.card img::after{
-    content: '.';
-    position: absolute;
-    top: 140px;
-    left: -90px;
-    transform: rotate(90deg);
-    width: 200px;
-    height: 5px;
-    background-color: rgb(45, 184, 184);
-    color: lime;
-}
 .info-card{
     width: 350px;
     height: 200px;
